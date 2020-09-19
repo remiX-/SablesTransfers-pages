@@ -1,0 +1,106 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+	padding-top: 80px;
+	min-height: 100vh;
+}
+
+.form-login {
+	max-width: 375px;
+	margin: auto;
+}
+
+.form-register {
+	max-width: 450px;
+	margin: auto;
+}
+
+.footer-fixed {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+.footer-top {
+	min-height: 220px
+}
+
+	.footer-top h2 {
+		color: #fff;
+	}
+
+	.footer-top a {
+		display: block;
+		padding: 0 0 0.5rem 0;
+		color: rgba(255, 255, 255, 0.5);
+	}
+
+		.footer-top a:hover {
+			color: rgba(255, 255, 255, 0.75);
+		}
+
+		.footer-top a:last-child {
+			padding-bottom: 0;
+		}
+
+
+.footer-bottom {
+	height: 60px
+}
+
+	.footer-bottom span:after {
+		content: "\00a0|"
+	}
+
+	.footer-bottom span:last-child:after {
+		content: ""
+	}
+
+	.footer-bottom span.clickable:hover {
+		color: rgba(255, 255, 255, 0.75);
+		text-decoration: underline;
+		cursor: pointer;
+	}
+
+.bg-gray8 {
+	background-color: #343a40;
+}
+
+.bg-gray9 {
+	background-color: #212529;
+}
+
+.spinner-loader {
+	text-align: center;
+}
+
+.hide {
+	display: none;
+}
+
+/* Bootstrap Additions */
+.dropdown-menu i {
+	padding-right: 10px;
+}
+
+.modal {
+	padding-right: 0 !important;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+/*.dl-horizontal dt {
+    white-space: normal;
+}*/
+
+/* Responsive: Portrait tablets and up */
+/*@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+    .body-content {
+        padding: 0;
+    }
+}*/

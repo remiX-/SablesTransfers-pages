@@ -1,0 +1,27 @@
+{
+  "name": "sablestransfers-pages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remiX-/SablesTransfers-pages.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/remiX-/SablesTransfers-pages/issues"
+  },
+  "homepage": "https://github.com/remiX-/SablesTransfers-pages#readme",
+  "dependencies": {
+    "@popperjs/core": "2.4.4",
+    "bootstrap": "4.5.2",
+    "jquery": "3.5.1"
+  },
+  "devDependencies": {
+    "http-server": "0.12.3"
+  }
+}
